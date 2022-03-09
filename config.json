@@ -1,0 +1,29 @@
+{
+	"all": [
+		{
+			"type": "Real",
+			"name": "k",
+			"anno": "Desired amplification"
+		},
+		{
+			"type": "Modelica.Units.SI.Resistance",
+			"name": "R1",
+			"anno": "Resistance at negative input of OpAmp"
+		},
+		{
+			"type": "Modelica.Units.SI.Resistance",
+			"name": "R2",
+			"anno": "Calculated resistance to reach k"
+		},
+		{
+			"type": "Modelica.Units.SI.Time",
+			"name": "T",
+			"anno": "Time constant"
+		},
+		{
+			"type": "Modelica.Units.SI.Capacitance",
+			"name": "C",
+			"anno": "Calculated capacitance to reach T"
+		}
+	]
+}
